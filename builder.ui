@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <object id="window" class="GtkWindow">
+    <property name="title">Julia Set</property>
+    <property name="default-width">800</property>
+    <property name="default-height">600</property>
+    <child>
+      <object id="drawarea" class="GtkDrawingArea"></object>
+    </child>
+  </object>
+</interface>
